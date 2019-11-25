@@ -1,0 +1,40 @@
+Here are some buttons for the menus
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.Nickname {color: green;}
+.Country {color: dodgerblue;}
+.Hobby {color: orange;}
+.Interest {color: red;}
+.Occupation {color:black}
+.Major (of study) {color: black;}
+</style>
+</head>
+<body>
+
+<h2>Text Buttons</h2>
+
+<button class="btn Nickname">Nickname</button>
+<button class="btn Country">Country</button>
+<button class="btn Hobby">Hobby</button>
+<button class="btn Interest">Interest</button>
+<button class="btn Occupation">Occupation</button>
+
+</body>
+</html>
+
